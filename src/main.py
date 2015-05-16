@@ -1,9 +1,9 @@
-import WikiRequests
+from WikiRequests import WikiRequests
 
 def loadQuery(w):
     w.queryPage(raw_input("Query> "))
 
-if __name__ == "main":
+if __name__ == "__main__":
     wr = WikiRequests()
     loadQuery(wr)
     selection = ""
